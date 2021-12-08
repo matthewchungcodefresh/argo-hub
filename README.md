@@ -37,7 +37,7 @@ Get a full-featured visualized experience here https://codefresh.io/argo/hub/
 * Every workflow template has a name that follows the convention: `argo-hub.{NAME}.{VERSION}`
 * Every template within the workflowTemplate must reference the service account that is declared in the rbac.yaml manifest
 
-To build an extensive UI while still using use of the original Kubernetes manifest, we are leverging annotations.
+To build an extensive UI while still using the original Kubernetes manifest, we levergage annotations.
 
 #### WorkflowTemplate annotations
 * `argo-hub/version` - sem version (0.0.2)
@@ -59,7 +59,7 @@ To build an extensive UI while still using use of the original Kubernetes manife
 
 ### Hub file system Structure
 The main folder of the Argo Hub repository is `workflows` <br>
-Each folder represents a workflowTemplate (group of templates), and appears as a unique item in the main list of the argo hub site <br>
+Each folder represents a workflowTemplate (group of templates), and appears as a unique item in the main list of the Argo Hub site. <br>
 
 * The file names are important, and it is important to follow the file naming conventions defined.
 
@@ -75,7 +75,7 @@ Every version folder has the following structure and files: <br>
 * `docs` folder - contains documentation for every template within the workflowTemplate (name be identical to the template name)
 
 ### Versioning
-Each workflow template is versioned and can be referenced by specific versions. The Codefresh Hub provides a clear structure for both owners and consumers to pick and use the versions that make sense for their use cases. Users can also use multiple versions to test changes, without fully upgrading.
+Each workflow template is versioned and can be referenced by specific versions. The Codefresh Hub provides a clear structure for both owners and consumers to help pick and use the versions that make sense for their use cases. Users can also use multiple versions to test changes, without fully upgrading.
 Check out the [file system structure](#Hub-file-system-Structure), and the [workflow template conventions](#WorkflowTemplate-manifest-conventions).
 
 ### Full release life cycle
